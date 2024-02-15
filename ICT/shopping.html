@@ -182,7 +182,7 @@
       let bagTotal = productPrices[product] * quantity;
 
       if (paymentMode === "Debit") {
-        bagTotal *= 0.95;
+        bagTotal *= 0.05;
       }
 
       document.getElementById("bill").value = bagTotal.toFixed(2);
